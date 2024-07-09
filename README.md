@@ -1,15 +1,19 @@
 # Cap Stone For Folasha'de Lateef
 /// describe project
-#About
+# About
 ///Write about
 # Built with..
-*Github
-*Vs Code
-*Javascript
-*CSS
+* Github
+* Vs Code
+* Javascript
+* CSS
+* BootStrap
 # Acknoledgements
 * ///write paragraph of where you learned the coding process
-  # Contact
+# Contact
 * Author: Flatee90@gmail.com
-* # Project
+# Project
 * *//talk about projects
+# WireFrame
+![Link]()
+![Image]()
