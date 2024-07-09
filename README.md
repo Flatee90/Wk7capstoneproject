@@ -7,9 +7,9 @@
 *Vs Code
 *Javascript
 *CSS
-* Acknoledgements
+# Acknoledgements
 * ///write paragraph of where you learned the coding process
-* *Contact
+  # Contact
 * Author: Flatee90@gmail.com
 * # Project
 * *//talk about projects
