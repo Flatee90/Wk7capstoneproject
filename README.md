@@ -17,12 +17,12 @@ I am new to the world of coding and this project showcases how much I have learn
 # Contact
 Author: Flatee90@gmail.com
 # Acknowledments 
-Mr. Robert McCreary and the TAs that have patiently worked with us.
-W3 school for all of the great tips and tricks
-My wonderful classmates, we all joined this course at diffrent levels of coding and have been a great community for each other.
-Github
-Getbootstrap.com
-Canva
+* Mr. Robert McCreary and the TAs that have patiently worked with us.
+* W3 school for all of the great tips and tricks
+* My wonderful classmates, we all joined this course at diffrent levels of coding and have been a great community for each other.
+* Github
+* Getbootstrap.com
+* Canva
 # WireFrame
 ![Link](https://www.canva.com/design/DAGKabETNaU/DzjurT5BOIWmWwYmjfMnXA/edit?utm_content=DAGKabETNaU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
