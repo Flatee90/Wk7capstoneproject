@@ -1,10 +1,15 @@
-function submitOrder() {
+function myappointmentscheduler() {
     let name;
-    let guest;
-    name = prompt("What is your name?");
-    guest = prompt("A mommy you want to treat?");
-    newyearsHeader.innerHTML = `You're Invited....`;
-    newyearsParagraph.innerHTML = `Hi ${guest}! ${name} would like to invite you to treat you to a day of pampering!  `;
+    let guest
+    let appointment;
+    let style;
+    guest = prompt("Who is the lucky mommy?");
+    appointment = prompt("What day would you like to book?");
+    style = prompt("hair,nails, massage, full mommy makeover?");
+    mommyHeader.innerHTML = `You're Invited....`;
+    mynailsHeader.innerHTML = `someone booked a nail spa for you!`
+    mynailsParagraph.innerHTML = `Hi ${name}, someone wants to treat you to a spa day for ${appointment} for ${style} we can't wait to see you!`;
 
 }
-mommyretreat.onclick = submitOrder
+mommyspa.onclick = myappointmentscheduler
+
