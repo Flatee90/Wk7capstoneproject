@@ -7,8 +7,8 @@ function myappointmentscheduler() {
     appointment = prompt("What day would you like to book?");
     style = prompt("hair,nails, massage, full mommy makeover?");
     mommyHeader.innerHTML = `You're Invited....`;
-    mynailsHeader.innerHTML = `someone booked a nail spa for you!`
-    mynailsParagraph.innerHTML = `Hi ${name}, someone wants to treat you to a spa day for ${appointment} for ${style} we can't wait to see you!`;
+    myappointmentHeader.innerHTML = `someone booked a nail spa for you!`
+    myappointmentParagraph.innerHTML = `Hi ${name}, someone wants to treat you to a spa day for ${appointment} for ${style} we can't wait to see you!`;
 
 }
 mommyspa.onclick = myappointmentscheduler
