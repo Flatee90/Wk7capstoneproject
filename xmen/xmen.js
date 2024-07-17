@@ -1,11 +1,13 @@
 function guessthexmen() {
     let yourChoice;
     let correctAnswer;
-    correctAnswer = "Proffesor X"
+    let lowerCaseChoice;
+    correctAnswer = "professor x"
     alert("Who is the leader of the Xmen?");
     yourChoice = prompt("Enter the name of the leader. Hint: Wheelchair");
+    lowerCaseChoice = yourChoice.toLowerCase();
 
-    if (correctAnswer === yourChoice) {
+    if (correctAnswer === lowerCaseChoice) {
         alert("Correct!");
     } else {
         alert("Wrong! Try again!");
