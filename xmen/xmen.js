@@ -13,7 +13,7 @@ function guessthexmen() {
         alert("Wrong! Try again!");
     }
 }
-choosexmen.onclick= guessthexmen
+choosexmen.onclick = guessthexmen
 
 
 let xmenvillian = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
@@ -25,7 +25,7 @@ console.log(xmenhero[2])
 console.log(xmenhero.length)
 
 function herovillan() {
-    for(let i=0; i<xmenhero.length; i++) {
+    for (let i = 0; i < xmenhero.length; i++) {
         let a;
         a = xmenhero[i];
         xmenvillian.push(a);
@@ -35,3 +35,6 @@ function herovillan() {
 
 
 xmenarray.onclick = herovillan;
+
+
+
