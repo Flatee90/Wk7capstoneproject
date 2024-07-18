@@ -14,3 +14,24 @@ function guessthexmen() {
     }
 }
 choosexmen.onclick= guessthexmen
+
+
+let xmenvillian = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
+let xmenhero = ["cyclops", "cabel", "rogue"];
+
+console.log(xmenhero[0])
+console.log(xmenhero[1])
+console.log(xmenhero[2])
+console.log(xmenhero.length)
+
+function herovillan() {
+    for(let i=0; i<xmenhero.length; i++) {
+        let a;
+        a = xmenhero[i];
+        xmenvillian.push(a);
+    }
+    console.log(xmenvillian);
+}
+
+
+xmenarray.onclick = herovillan;
