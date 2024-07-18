@@ -1,14 +1,14 @@
 function guessthexmen() {
-    let yourChoice;
+    let yourchoice;
     let correctAnswer;
     let lowerCaseChoice;
     correctAnswer = "professor x"
     alert("Who is the leader of the Xmen?");
-    yourChoice = prompt("Enter the name of the leader. Hint: Wheelchair");
+    yourChoice = prompt("enter the name of the leader. Hint: Wheelchair");
     lowerCaseChoice = yourChoice.toLowerCase();
 
-    if (correctAnswer === lowerCaseChoice) {
-        alert("Correct!");
+    if (correctAnswer === lowerCasechoice) {
+        alert("correct!");
     } else {
         alert("Wrong! Try again!");
     }
@@ -17,18 +17,19 @@ choosexmen.onclick = guessthexmen
 
 
 
+
 function randomIndex(len) {
     
     let rand1 = Math.random();
     
     let rand2 = rand1 * len;
-
+    
     let index = Math.floor(rand2);
     return index;
 }
 
 
-let xmenvillian = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
+let xmenvillan = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
 let xmenhero = ["cyclops", "cabel", "rogue"];
 
 console.log(xmenhero[0])
@@ -37,26 +38,24 @@ console.log(xmenhero[2])
 console.log(xmenhero.length)
 
 function herovillan() {
-    for (let i = 0; i < xmenhero.length; i++) {
+    for (let i = 0; i < scaryAnimals.length; i++) {
         let a;
         a = xmenhero[i];
-        xmenvillian.push(a);
-        alert(a);
+    xmenvillan.push(a);
     }
-    console.log(xmenvillian);
+    console.log(xmenvillan);
 }
 
+pushArray.onclick = herovillan;
 
-xmenarray.onclick = herovillan;
 
 function randomxmen() {
     let villians = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
     let randomNumber = randomIndex(villians.length);
     let a = villians[randomNumber];
-    alert(`Your random villans is ${a}`);
+    alert(`Your random villians is ${a}`);
 }
 
-xmenrandom.onclick = randomxmen;
-
+xmenButton.onclick = randomxmen;
 
 
