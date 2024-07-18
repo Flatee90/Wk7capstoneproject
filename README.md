@@ -16,6 +16,10 @@ I am new to the world of coding and this project showcases how much I have learn
 * BootStrap
 # Contact
 Author: Flatee90@gmail.com
+# Roadmap
+-[] HTML 
+-[] CSS
+-[] Bootstrap
 # Acknowledments 
 * Mr. Robert McCreary and the TAs that have patiently worked with us.
 * W3 school for all of the great tips and tricks
