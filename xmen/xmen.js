@@ -16,6 +16,18 @@ function guessthexmen() {
 choosexmen.onclick = guessthexmen
 
 
+
+function randomIndex(len) {
+    
+    let rand1 = Math.random();
+    
+    let rand2 = rand1 * len;
+
+    let index = Math.floor(rand2);
+    return index;
+}
+
+
 let xmenvillian = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
 let xmenhero = ["cyclops", "cabel", "rogue"];
 
@@ -29,12 +41,22 @@ function herovillan() {
         let a;
         a = xmenhero[i];
         xmenvillian.push(a);
+        alert(a);
     }
     console.log(xmenvillian);
 }
 
 
-xmenarray.onclick = herovillan;
+xmenarray.onclick = herovillan = combineArrays;
+
+function randomxmen() {
+    let villians = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
+    let randomNumber = randomIndex(villians.length);
+    let a = villians[randomNumber];
+    alert(`Your random villans is ${a}`);
+}
+
+xmenrandom.onclick = randomxmen;
 
 
 
