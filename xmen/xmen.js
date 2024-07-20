@@ -18,9 +18,9 @@ choosexmen.onclick = guessthexmen
 
 
 function randomIndex(len) {
-    
+
     let rand1 = Math.random();
-    
+
     let rand2 = rand1 * len;
 
     let index = Math.floor(rand2);
@@ -50,6 +50,7 @@ function herovillan() {
 xmenarray.onclick = herovillan;
 
 function randomxmen() {
+    alert("hello random")
     let villians = ["Apocalypse", "Mister Sinister", "Mystique", "Sabertooth"];
     let randomNumber = randomIndex(villians.length);
     let a = villians[randomNumber];
@@ -59,4 +60,19 @@ function randomxmen() {
 xmenrandom.onclick = randomxmen;
 
 
+function createList(){
+    for(let i=0; i<cuteAnimals.length; i++) {
+        animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+    }
 
+    // let i = 0;
+    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+    // i++
+    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+    // i++
+    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+    // i++
+    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+}
+
+createListButton.onclick = createList;

@@ -19,11 +19,11 @@ choosexmen.onclick = guessthexmen
 
 
 function randomIndex(len) {
-    
+
     let rand1 = Math.random();
-    
+
     let rand2 = rand1 * len;
-    
+
     let index = Math.floor(rand2);
     return index;
 }
@@ -38,10 +38,10 @@ console.log(xmenhero[2])
 console.log(xmenhero.length)
 
 function herovillan() {
-    for (let i = 0; i < scaryAnimals.length; i++) {
+    for (let i = 0; i < xm.length; i++) {
         let a;
         a = xmenhero[i];
-    xmenvillan.push(a);
+        xmenvillan.push(a);
     }
     console.log(xmenvillan);
 }
@@ -58,4 +58,20 @@ function randomxmen() {
 
 xmenButton.onclick = randomxmen;
 
+List of X - Men supervillains
+const xmenSupervillains = [
+    "Magneto",
+    "Mystique",
+    "Sabretooth",
+    //"Juggernaut",
+    "Apocalypse",
+    "Omega Red",
+    
+];
+
+
+function pickRandomVillain() {
+    const randomIndex = Math.floor(Math.random() * xmenSupervillains.length);
+    return xmenSupervillains[randomIndex];
+}
 
