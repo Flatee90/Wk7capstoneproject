@@ -60,19 +60,20 @@ function randomxmen() {
 xmenrandom.onclick = randomxmen;
 
 
-function createList(){
-    for(let i=0; i<cuteAnimals.length; i++) {
-        animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
-    }
+List of X - Men supervillains
+const xmenSupervillains = [
+    "Magneto",
+    "Mystique",
+    "Sabretooth",
+    //"Juggernaut",
+    "Apocalypse",
+    "Omega Red",
+    
+];
 
-    // let i = 0;
-    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
-    // i++
-    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
-    // i++
-    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
-    // i++
-    // animalList.innerHTML += `<li>${cuteAnimals[i]}</li>`;
+
+function pickRandomVillain() {
+    const randomIndex = Math.floor(Math.random() * xmenSupervillains.length);
+    return xmenSupervillains[randomIndex];
 }
 
-createListButton.onclick = createList;
